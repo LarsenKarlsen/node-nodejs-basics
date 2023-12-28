@@ -1,7 +1,7 @@
 import * as path from "path"
-import { readFile } from "fs/promises"
-import crypto from "crypto"
 import {createReadStream} from 'node:fs';
+
+
 const calculateHash = async () => {
     // Write your code here
     const filePath = path.resolve("src/hash/files/fileToCalculateHashFor.txt")
